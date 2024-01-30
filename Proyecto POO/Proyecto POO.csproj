@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Proyecto_POO</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Juego-Dado\Juego-Dado.csproj" />
+    <ProjectReference Include="..\Programa1-Club\Programa1-Club.csproj" />
+    <ProjectReference Include="..\programa2-Banco\programa2-Banco.csproj" />
+  </ItemGroup>
+
+</Project>
